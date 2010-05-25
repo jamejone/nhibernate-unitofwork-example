@@ -1,6 +1,6 @@
 ﻿using FluentNHibernate.Mapping;
 
-namespace nhibernate_unitofwork_example.DAL.NHibernate.Maps
+namespace nhibernate_unitofwork_example.DAL.Maps
 {
     public class BananaMap : ClassMap<Banana>
     {

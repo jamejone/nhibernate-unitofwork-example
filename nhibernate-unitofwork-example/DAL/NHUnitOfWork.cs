@@ -8,7 +8,7 @@ using FluentNHibernate.Cfg;
 using FluentNHibernate.Cfg.Db;
 using NHibernate.Tool.hbm2ddl;
 
-namespace nhibernate_unitofwork_example.DAL.NHibernate
+namespace nhibernate_unitofwork_example.DAL
 {
     /// <summary>
     /// A façade for 

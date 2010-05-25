@@ -56,9 +56,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Banana.cs" />
-    <Compile Include="DAL\NHibernate\Maps\BananaMap.cs" />
-    <Compile Include="DAL\NHibernate\Maps\MonkeyMap.cs" />
-    <Compile Include="DAL\NHibernate\NHUnitOfWork.cs" />
+    <Compile Include="DAL\Maps\BananaMap.cs" />
+    <Compile Include="DAL\Maps\MonkeyMap.cs" />
+    <Compile Include="DAL\NHUnitOfWork.cs" />
     <Compile Include="Monkey.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
