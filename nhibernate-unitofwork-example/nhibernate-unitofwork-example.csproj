@@ -32,19 +32,19 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Castle.Core">
-      <HintPath>..\lib\FluentNHibernate\fluentnhibernate-1.0RTM\Castle.Core.dll</HintPath>
+      <HintPath>..\lib\fluentnhibernate-1.0RTM\Castle.Core.dll</HintPath>
     </Reference>
     <Reference Include="Castle.DynamicProxy2">
-      <HintPath>..\lib\FluentNHibernate\fluentnhibernate-1.0RTM\Castle.DynamicProxy2.dll</HintPath>
+      <HintPath>..\lib\fluentnhibernate-1.0RTM\Castle.DynamicProxy2.dll</HintPath>
     </Reference>
     <Reference Include="FluentNHibernate">
-      <HintPath>..\lib\FluentNHibernate\fluentnhibernate-1.0RTM\FluentNHibernate.dll</HintPath>
+      <HintPath>..\lib\fluentnhibernate-1.0RTM\FluentNHibernate.dll</HintPath>
     </Reference>
     <Reference Include="NHibernate">
-      <HintPath>..\lib\FluentNHibernate\fluentnhibernate-1.0RTM\NHibernate.dll</HintPath>
+      <HintPath>..\lib\fluentnhibernate-1.0RTM\NHibernate.dll</HintPath>
     </Reference>
     <Reference Include="NHibernate.ByteCode.Castle">
-      <HintPath>..\lib\FluentNHibernate\fluentnhibernate-1.0RTM\NHibernate.ByteCode.Castle.dll</HintPath>
+      <HintPath>..\lib\fluentnhibernate-1.0RTM\NHibernate.ByteCode.Castle.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
