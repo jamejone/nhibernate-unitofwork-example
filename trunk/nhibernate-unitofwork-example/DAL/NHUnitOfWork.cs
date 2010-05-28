@@ -34,6 +34,7 @@ namespace nhibernate_unitofwork_example.DAL
         {
             if (config == null)
             {
+                //TODO: Configure your database settings here.
                 config = Fluently.Configure()
                     .Database(
                         MsSqlConfiguration
