@@ -26,7 +26,8 @@ namespace test.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=rachael-pc\\sqlexpress;Initial Catalog=test;Integrated Security=True")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=grvvam-jrj0003\\sqlexpress;Initial Catalog=test;Integrated Security=Tr" +
+            "ue")]
         public string DBConnStr {
             get {
                 return ((string)(this["DBConnStr"]));

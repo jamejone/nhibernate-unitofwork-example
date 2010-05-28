@@ -49,6 +49,11 @@ namespace nhibernate_unitofwork_example.DAL
             transaction = Session.BeginTransaction();
 
             Rollback = false;
+
+            //The following lines are needed in order to force DLL's to copy out during build. (optimization excludes them otherwise)
+            var pf = new NHibernate.ByteCode.Castle.ProxyFactory();
+            var gn = new Castle.Core.GraphNode();
+            var dpb = new Castle.DynamicProxy.DefaultProxyBuilder();
         }
 
         /// <summary>
