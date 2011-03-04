@@ -88,6 +88,11 @@ namespace nhibernate_unitofwork_example.DAL
         {
             Session.SaveOrUpdate(value);
         }
+        public void Save(IList<object> values)
+        {
+            foreach (var value in values)
+                Save(value);
+        }
 
         /// <summary>
         /// Removes a persistent instance from the database.
@@ -96,6 +101,11 @@ namespace nhibernate_unitofwork_example.DAL
         public void Delete(object value)
         {
             Session.Delete(value);
+        }
+        public void Delete(IList<object> values)
+        {
+            foreach (var value in values)
+                Delete(value);
         }
 
         /// <summary>
